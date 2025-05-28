@@ -3,26 +3,33 @@
 
 A modern blog web app built with React, Vite, Tailwind CSS, Redux Toolkit, Appwrite, and more.
 
-## Features
+## ✨ Features
 
-- User authentication (signup, login, logout) via Appwrite
-- Create, edit, and delete blog posts
-- Rich text editor for post content
-- Image upload and preview
-- Responsive UI with Tailwind CSS
-- State management with Redux Toolkit
-- Routing with React Router
+- 🔐 **Authentication** (Sign up, Login, Logout) with Appwrite
+- 📝 **Create, Edit, Delete** blog posts
+- 🖼️ **Image upload** & preview
+- 🧑‍💻 **Rich text editor** (TinyMCE)
+- 📱 **Responsive UI** powered by Tailwind CSS
+- ⚡ **Fast** and **lightweight** (Vite)
+- 🗂️ **State management** with Redux Toolkit
+- 🔄 **Routing** with React Router
 
 ## Tech Stack
 
-- [React](https://react.dev/)
-- [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Redux Toolkit](https://redux-toolkit.js.org/)
-- [Appwrite](https://appwrite.io/)
-- [React Hook Form](https://react-hook-form.com/)
-- [TinyMCE](https://www.tiny.cloud/) (via `@tinymce/tinymce-react`)
-- [html-react-parser](https://github.com/remarkablemark/html-react-parser)
+## 🛠️ Tech Stack
+
+| 🚀 Tech                | 🌐 Description                |
+|------------------------|------------------------------|
+| ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black) | Frontend UI library      |
+| ![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white) | Lightning-fast build tool |
+| ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?logo=tailwindcss&logoColor=white) | Utility-first CSS framework |
+| ![Redux Toolkit](https://img.shields.io/badge/-Redux%20Toolkit-764ABC?logo=redux&logoColor=white) | State management         |
+| ![React Redux](https://img.shields.io/badge/-React%20Redux-593D88?logo=redux&logoColor=white) | React bindings for Redux |
+| ![React Router](https://img.shields.io/badge/-React%20Router-CA4245?logo=reactrouter&logoColor=white) | Routing library          |
+| ![Appwrite](https://img.shields.io/badge/-Appwrite-F02E65?logo=appwrite&logoColor=white) | Backend as a Service     |
+| ![React Hook Form](https://img.shields.io/badge/-React%20Hook%20Form-EC5990?logo=reacthookform&logoColor=white) | Forms & validation       |
+| ![TinyMCE](https://img.shields.io/badge/-TinyMCE-292929?logo=tinymce&logoColor=white) | Rich text editor         |
+| ![HTML React Parser](https://img.shields.io/badge/-html--react--parser-222222?logo=html5&logoColor=white) | HTML parsing in React    |
 
 ## Getting Started
 
@@ -51,15 +58,15 @@ VITE_APPWRITE_DATABASE_ID="your-database-id"
 VITE_APPWRITE_COLLECTION_ID="your-collection-id"
 VITE_APPWRITE_BUCKET_ID="your-bucket-id"
 ```
-### 4. Start the development server
+### 4.  Scripts
 
 ```
-npm run dev
+npm run dev – Start development server
+npm run build – Build for production
+npm run preview – Preview production build
+npm run lint – Lint code with ESLint
 
 ```
-## 📁 Project Structure
-```
-```markdown
 ## 📁 Project Structure
 
 ```
@@ -74,14 +81,17 @@ Blog_web app/
 │   ├── store/             # Redux slices & store setup
 │   ├── App.jsx            # Main App component
 │   └── main.jsx           # Entry point
-├── .env.sample            # Example environment variables
-├── index.html             # HTML template
-├── package.json           # Project metadata & scripts
-├── postcss.config.js      # PostCSS config
-├── tailwind.config.js     # Tailwind CSS config
-└── README.md              # Project documentation
+├── [.env.sample](http://_vscodecontentref_/1)            # Example environment variables
+├── [index.html](http://_vscodecontentref_/2)             # HTML template
+├── [package.json](http://_vscodecontentref_/3)           # Project metadata & scripts
+├── [postcss.config.js](http://_vscodecontentref_/4)      # PostCSS config
+├── [tailwind.config.js](http://_vscodecontentref_/5)     # Tailwind CSS config
+└── [README.md](http://_vscodecontentref_/6)              # Project documentation
 ```
+### License
+
 ```
+MIT
 ```
 
 
