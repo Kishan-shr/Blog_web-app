@@ -36,7 +36,7 @@ A modern blog web app built with React, Vite, Tailwind CSS, Redux Toolkit, Appwr
 ### 1. Clone the repository
 
 ```sh
-git clone <https://github.com/Kishan-shr/Blog_web-app>
+git clone https://github.com/Kishan-shr/Blog_web-app
 cd Blog_web\ app
 ```
 ### 2. Install dependencies
